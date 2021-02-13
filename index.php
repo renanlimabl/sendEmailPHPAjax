@@ -46,7 +46,9 @@
               </div>
             </div>
             <form method="POST" action="sendmail.php" id="form">
-              <input type="email" name="email" placeholder="Digite seu email">
+              <input type="email" name="email" placeholder="E-mail">
+              <input type="text" name="nome" placeholder="Nome">
+              <input type="text" name="telefone" placeholder="Telefone">
               <input id="button" type="submit" name="send" value="GARANTIR MINHA VAGA!"/>
             </form>
           </div>

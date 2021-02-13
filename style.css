@@ -36,8 +36,8 @@ img {
 
 /* MAIN */
 
-section.main {
-  min-height: 780px;
+section.main { 
+  padding: 0 0 100px;
   background-image: url('./assets/background.jpeg');
   background-size: 100% 100%;
 }
@@ -135,6 +135,16 @@ section.main {
 }
 
 .form .email input[type="email"] {
+  border-radius: 50px;
+  padding-left: 20px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 45px;
+  outline: none;
+}
+
+.form .email input[type="text"] {
   border-radius: 50px;
   padding-left: 20px;
   border: 1px solid #ccc;
