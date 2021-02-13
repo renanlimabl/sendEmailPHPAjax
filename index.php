@@ -37,19 +37,19 @@
                 <span>horas</span>
               </div>
               <div class="minutes">
-                <p>00</p>
+                <p id="min">00</p>
                 <span>minutos</span>
               </div>
               <div class="seconds">
-                <p>00</p>
+                <p id="sec">00</p>
                 <span>segundos</span>
               </div>
             </div>
             <form method="POST" action="sendmail.php" id="form">
-              <input type="email" name="email" placeholder="E-mail">
-              <input type="text" name="nome" placeholder="Nome">
-              <input type="text" name="telefone" placeholder="Telefone">
-              <input id="button" type="submit" name="send" value="GARANTIR MINHA VAGA!"/>
+              <input type="email" name="email" placeholder="E-mail" required>
+              <input type="text" name="nome" placeholder="Nome" required>
+              <input type="text" name="telefone" placeholder="Telefone" required>
+              <input id="button" type="submit" name="send" value="ENTRAR NO GRUPO VIP DO WHATSAPP!"/>
             </form>
           </div>
         </div>
@@ -62,26 +62,23 @@
       <div class="aula">
         <div class="aula-item">
           <img src="./assets/aula01.jpeg" alt="Aula 01">
-          <h2>A GRANDE DESCOBERTA</h2>
-          <p>Você descobrirá de onde vem esse conhecimento, qual é o embasamento científico 
-            e terá acesso a explicação 
-            completa de como o formato do corpo revela que tipo de mente uma pessoa tem.</p>
+          <h2>A GRANDE LIBERDADE</h2>
+          <p>Você descobrirá  porque VOCÊ esta parado tanto tempo no mesmo lugar! Será que você esta vivendo realmente o que você quer ou esta vivendo o que planejaram para você? 
+            O que falta para você ter a vida que sempre desejou?!</p>
         </div>
         <div class="aula-item">
           <img src="./assets/aula02.jpeg" alt="Aula 02">
-          <h2>A GRANDE DESCOBERTA</h2>
-          <p>Você descobrirá de onde vem esse conhecimento, qual é o embasamento científico 
-            e terá acesso a explicação 
-            completa de como o formato do corpo revela que tipo de mente uma pessoa tem.</p>
+          <h2>AUTORREALIZAÇÃO</h2>
+          <p>Você descobrirá  porque VOCÊ  não sai do lugar. O que você está fazendo de errado e deixando outras pessoas fazerem com você que está te impedindo de crescer na carreira, 
+            ganhar mais dinheiro e ter uma vida melhor</p>
         </div>
       </div>
       <div class="aula">
         <div class="aula-item">
-          <img src="./assets/aula03.jpeg" alt="Aula 03">
-          <h2>A GRANDE DESCOBERTA</h2>
-          <p>Você descobrirá de onde vem esse conhecimento, qual é o embasamento científico 
-            e terá acesso a explicação 
-            completa de como o formato do corpo revela que tipo de mente uma pessoa tem.</p>
+          <img src="./assets/aula03.jpeg" alt="Aula 03">          
+          <h2>INTELIGÊNICA E PRÓPOSITO</h2>
+          <p>A aula mais importante que irá te mostrar a única mudança que você precisa fazer no seu posicionamento e na sua apresentação para ter muitas pessoas querendo te contratar, 
+            te indicando e te pagando cada vez mais.</p>          
         </div>
         <div class="aula-item">
           <img src="./assets/aula04.jpeg" alt="Aula 04">
@@ -112,5 +109,6 @@
   <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="./sendmail.js"></script>
+  <script src="./regressive.js"></script>
 </body>
 </html>

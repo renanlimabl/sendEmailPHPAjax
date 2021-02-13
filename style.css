@@ -67,7 +67,7 @@ section.main {
   font-size: 21px;
   margin-bottom: 1rem;
   line-height: 1.2;
-  color: #fff;
+  color: #000;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -77,9 +77,13 @@ section.main {
 }
 
 .form > p {
-  color: #fff;
+  color: #000;
   text-align: center;
   margin-bottom: 20px;
+}
+
+.form > p > b {
+  background: rgb(252, 251, 251);
 }
 
 .form .date {
@@ -93,14 +97,17 @@ section.main {
 }
 
 .form .date p {
-  color: #fff;
+  color: #000;
   font-weight: bold;
   font-size: 17px;
+  background: #fff;
+  padding: 2px 10px;
+  border-radius: 10px;
 }
 
 .form .date span {
   font-size: 20px;
-  color: #fff;
+  color: #000;
 }
 
 .form .email {
@@ -185,6 +192,13 @@ section.main {
 .aula .aula-item{
   margin: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.aula .aula-item p{
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .aula .aula-item h2 {
