@@ -95,7 +95,7 @@
       <h1>Quem ira guiar vocês? <img src="./assets/logo.png"/></h1>
     </div>
     <div class="felippe">
-      <img src="./assets/felippe.png" alt="Professor">
+      <img src="./assets/felippe2.png" alt="Professor">
       <div class="description">
         <p>Especialista em Comunicação, fundador da Escola Brasileira de Comunicação e criador do Método Comunicativo Humanês. Ele é o responsável por trazer simplicidade, 
           clareza e aplicabilidade para a explicação da Maratona Sucesso Depois dos 30.</p>

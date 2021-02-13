@@ -269,3 +269,58 @@ section.main {
   max-width: 100px;
   margin-left: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .space {
+    display: none;
+  }
+
+  .aula {
+    flex-direction: column;
+  }
+
+  .form .email {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .felippe {
+    height: auto;
+  }
+
+  .felippe .description p {
+    max-width: 300px;
+  }
+
+  .professor .quem h1 {
+    flex-direction: column;
+  }
+
+  .professor .quem h1 img{
+    max-width: 50px;
+    margin-left: 0;
+    margin-top: 16px;
+  }
+
+  .felippe .description {
+    max-width: 300px;
+    border-radius: unset;
+  }
+
+
+  .form .email #button {
+    font-size: 10px;
+  }
+
+  .professor .quem h1 {
+    font-size: 16px;
+  }
+
+  .felippe img {
+    max-width: 300px;
+  }
+
+  p, span {
+    font-size: 14px;
+  }
+}
