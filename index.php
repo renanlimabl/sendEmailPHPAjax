@@ -8,13 +8,12 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 </head>
 <body>
   <section class="main">
     <div class="container">
-      <div class="logo">
-        <img src="./assets/logo.png" alt="Logo">
-      </div>
+      <div id="pull"></div>  
       <div class="flex">
         <div class="form">
           <h3>
@@ -52,8 +51,7 @@
               <input id="button" type="submit" name="send" value="ENTRAR NO GRUPO VIP DO WHATSAPP!"/>
             </form>
           </div>
-        </div>
-        <div class="space"></div>
+        </div>        
     </div>
     </div>
   </section>
@@ -70,7 +68,7 @@
           <img src="./assets/aula02.jpeg" alt="Aula 02">
           <h2>AUTORREALIZAÇÃO</h2>
           <p>Você descobrirá  porque VOCÊ  não sai do lugar. O que você está fazendo de errado e deixando outras pessoas fazerem com você que está te impedindo de crescer na carreira, 
-            ganhar mais dinheiro e ter uma vida melhor</p>
+            ganhar mais dinheiro e ter uma vida melhor?</p>
         </div>
       </div>
       <div class="aula">
@@ -92,17 +90,20 @@
   </section>
   <section class="professor">
     <div class="quem">
-      <h1>Quem ira guiar vocês? <img src="./assets/logo.png"/></h1>
+      <!-- <h1>SEU MENTOR:</h1> -->
     </div>
     <div class="felippe">
       <img src="./assets/felippe2.png" alt="Professor">
       <div class="description">
-        <p>Especialista em Comunicação, fundador da Escola Brasileira de Comunicação e criador do Método Comunicativo Humanês. Ele é o responsável por trazer simplicidade, 
-          clareza e aplicabilidade para a explicação da Maratona Sucesso Depois dos 30.</p>
-        <h2>Fellippe Cineli</h2>
+        <p>Treinador da Mente Humana e Arquiteto da Alma.
+Professional Coaching, Mentoring e Advice Humanizado ISOR, em Self & Life com Ativação de Competências Pessoais e Profissionais pelo Instituto HOLLOS é Palestrante e Treinador. Especialista com MBA em Gestão de Negócios na FGV e Arquiteto e Urbanista há mais de 10 anos.</p>
+        <h2>Felippe Cinelli</h2>
+        <h3>Fundador | Facilitador</h3>
       </div>
     </div>
   </section>
+  <footer>
+</footer>
 
 
 

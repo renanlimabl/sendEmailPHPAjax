@@ -1,4 +1,4 @@
-let minutes = 15;
+let minutes = 14;
 let seconds = 60;
 
 let min = document.querySelector('#min')
