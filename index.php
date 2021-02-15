@@ -93,6 +93,7 @@
       <!-- <h1>SEU MENTOR:</h1> -->
     </div>
     <div class="felippe">
+      <h3>Quem será seu mentor?</h3>
       <img src="./assets/felippe2.png" alt="Professor">
       <div class="description">
         <p>Treinador da Mente Humana e Arquiteto da Alma.
@@ -103,7 +104,9 @@ Professional Coaching, Mentoring e Advice Humanizado ISOR, em Self & Life com At
     </div>
   </section>
   <footer>
-</footer>
+    <img src="./assets/logo.png" alt="Logo">
+    <p>© Arte de Acreditar - 2021 <br /> Todos os direitos reservados</p>
+  </footer>
 
 
 

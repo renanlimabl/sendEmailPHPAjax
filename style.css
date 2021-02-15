@@ -44,6 +44,7 @@ img {
 
 section.main { 
   background-image: url('./assets/background-desktop.jpeg');
+  background-position: center;
   background-size: 100% 100%;
   min-height: calc(100vh + 100px);
   height: auto;
@@ -289,6 +290,32 @@ section.main {
   display: none;
 }
 
+footer {
+  width: 100%;
+  background: rgb(0, 0, 37);
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -100px;
+}
+
+footer img {
+  max-width: 80px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+}
+
+.felippe > h3 {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     padding: 0 5px;
@@ -324,10 +351,27 @@ section.main {
 
   .felippe {
     height: auto;
+    top: 0;
   }
 
+  .felippe > h3 {
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  
   .felippe .description p {
     max-width: 300px;
+  }
+  
+  .professor {
+    background-position: left;
+  }
+  .professor .quem {
+    padding: 40px 0 30px;
   }
 
   .professor .quem h1 {
@@ -405,11 +449,7 @@ section.main {
   }
 }
 
-footer {
-  width: 100%;
-  background: rgb(0, 0, 37);
-  height: 100px;
-}
+
 
 @media screen and (max-height: 800px) {
   #pull {
