@@ -17,10 +17,10 @@
       <div class="flex">
         <div class="form">
           <h3>
-            <span class="success">DESPERTE SEU PROPÓSITO</span> PARA TRANSFORMAR SUA VIDA, CARREIRA E EMPRESA 
+            <span class="success">DESPERTE SEU PROPÓSITO</span> E TRANSFORME SUA VIDA, CARREIRA E EMPRESA 
             PARA TER A VIDA QUE VOCÊ SEMPRE DESEJOU!</h3>
-            <p>Um curso de aperfeiçoamento profissional pago que estará disponível 
-            <b>GRATUITAMENTE</b> ao vivo na internet nos dias:</p>
+            <p>Uma jornada de aperfeiçoamento profissional paga que estará disponível 
+            <b>GRATUITAMENTE</b> ao vivo e online na internet nos dias:</p>
           <div class="date">
             <img src="./assets/calendario.png" alt="calendario">
             <div>
@@ -29,7 +29,7 @@
             </div>
           </div>
           <div class="email">
-            <h4>Deixe o seu e-mail abaixo para receber GRATUITAMENTE o link das 4 AULAS AO VIVO e o material do curso.</h4>
+            <h4>Deixe o seu contato abaixo para receber GRATUITAMENTE o link das 4 AULAS AO VIVO e o material da MASTER CLASS no WhatsApp.</h4>
             <div class="regressive">
               <div class="hours">
                 <p>00</p>
@@ -45,9 +45,9 @@
               </div>
             </div>
             <form method="POST" action="sendmail.php" id="form">
-              <input type="email" name="email" placeholder="E-mail" required>
               <input type="text" name="nome" placeholder="Nome" required>
               <input type="text" name="telefone" placeholder="Telefone" required>
+              <input type="email" name="email" placeholder="E-mail" required>
               <input id="button" type="submit" name="send" value="ENTRAR NO GRUPO VIP DO WHATSAPP!"/>
             </form>
           </div>
@@ -105,8 +105,8 @@
       <h3>Quem vai ser seu mentor?</h3>
       <img src="./assets/felippe2.png" alt="Professor">
       <div class="description">
-        <p>Treinador da Mente Humana e Arquiteto da Alma.
-Professional Coaching, Mentoring e Advice Humanizado ISOR, em Self & Life com Ativação de Competências Pessoais e Profissionais pelo Instituto HOLLOS é Palestrante e Treinador. Especialista com MBA em Gestão de Negócios na FGV e Arquiteto e Urbanista há mais de 10 anos.</p>
+        <p><b>Treinador da Mente Humana e Arquiteto da Alma.</b> <br /> 
+Professional Coaching, Mentoring e Advice Humanizado ISOR, em Self & Life com Ativação de Competências Pessoais e Profissionais pelo Instituto HOLLOS. É palestrante, treinador, especialista com MBA em Gestão de Negócios na FGV e Arquiteto e Urbanista há mais de 10 anos.</p>
         <h2>Felippe Cinelli</h2>
         <h3>Fundador | Facilitador</h3>
       </div>
