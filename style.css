@@ -32,9 +32,7 @@ ul {
 }
 
 .main .container {
-  height: 100vh;
   display: flex;
-  align-items: flex-end;  
 }
 
 .text-center {
@@ -49,31 +47,25 @@ img {
 /* MAIN */
 
 section.main { 
-  background-image: url('./assets/background-desktop.jpeg');
+  background-image: url('./assets/backgroundmain.jpeg');
   background-position: center;
   background-size: 100% 100%;
-  min-height: calc(100vh + 200px);
-  height: auto;
+  padding: 20px 0 60px;
 }
 
-.main .logo {
-  padding: 20px 0;
-}
-
-.main .logo img {
-  width: 80px;
+.main .logo img:nth-of-type(1) {
+  max-width: 200px;
   margin: 0 auto;
 }
 
 .main .flex {
   display: flex;
-  position: relative;
-  top: 60px;
+  flex-direction: column;
 }
 
 .main .flex .form {
   width: 50%;
-  margin: 0 auto;
+  margin: 20px auto 0;
 }
 
 .form h3 {
@@ -251,8 +243,7 @@ section.main {
 }
 
 .professor {
-  min-height: calc(100vh + 210px);
-  background-image: url('./assets/foooter/footer3.jpeg');
+  background-image: url('./assets/background-prof.jpeg');
   background-position: center;
   background-size: cover;
 }
@@ -262,11 +253,9 @@ section.main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
-  top: 240px;
 }
 
-.felippe img {
+.felippe img.mentor {
   position: relative;
   top: 3px;
 }
@@ -301,26 +290,32 @@ section.main {
   padding: 5px 0;
 }
 
-.professor .quem {
+.professor {
+  padding: 20px 0 40px;
+}
+
+.logo-felippe {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding: 80px 0 20px;
-  color: #fff;  
-}
-
-.professor .quem h1 {
-  display: flex;
   align-items: center;
-  font-size: 6em;
+  max-width: 900px;
 }
 
-.professor .quem h1 img {
-  max-width: 100px;
-  margin-left: 100px;
+.logo-felippe .quem-vai-ser {
+  display: flex;
 }
 
-#pull {
-  display: none;
+.logo-felippe .quem-vai-ser img:nth-of-type(1) {
+  max-width: 500px;
+}
+
+.logo-felippe .quem-vai-ser img:nth-of-type(2) {
+  max-width: 300px;
+}
+
+.logo-felippe .img-jornada img{
+  max-width: 1000px;
 }
 
 footer {
@@ -331,8 +326,6 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative;
-  top: -100px;
 }
 
 footer img {
@@ -349,6 +342,8 @@ footer p {
   display: none;
 }
 
+
+/* MEDIA SCREEN */
 @media screen and (max-width: 768px) {
   .container {
     padding: 0 5px;
@@ -382,25 +377,11 @@ footer p {
     margin: 15px auto 0;
   }
 
-  .felippe {
-    height: auto;
-    top: 0;
-  }
+  
+  
 
   .felippe .description p {
     max-width: 300px;
-  }
-
-  /* .felippe > h3 {
-    display: block;
-    font-family: 'Moontime';
-    font-size: 40px;
-    color: rgb(0, 127, 150);
-    text-shadow: 2px 0 0 rgb(161, 241, 255), -2px 0 0 rgb(161, 241, 255), 0 2px 0 rgb(161, 241, 255), 0 -2px 0 rgb(161, 241, 255), 1px 1px rgb(161, 241, 255), -1px -1px 0 rgb(161, 241, 255), 1px -1px 0 rgb(161, 241, 255), -1px 1px 0 #fff;
-  } */
-  
-  .professor {
-    background-image: url('./assets/background-footer.jpeg');
   }
 
   .professor .quem {
@@ -431,17 +412,20 @@ footer p {
     font-size: 16px;
   }
 
-  .felippe img {
+  .felippe img.mentor {
     max-width: 300px;
   }
 
-  p, span {
+  .felippe .quem-vai-ser {
+    display: flex;
+  }
+
+  .hours p, .hours span, .minutes p, .minutes span, .seconds p, .hours span {
     font-size: 12px;
   }
 
-  section.main {
-    background-image: url('./assets/mobile3.jpeg');
-    position: relative;
+  p, span {
+    font-size: 14px;
   }
 
   .main .container {
@@ -477,10 +461,6 @@ footer p {
     height: 30px;
   }
 
-  .date {
-    height: 30px;
-  }
-
   .aulas header {
     text-align: center;
   }
@@ -497,58 +477,30 @@ footer p {
   }
 }
 
-
-
-@media screen and (max-height: 800px) {
-  #pull {
-    height: 145px;
+@media screen and (max-width: 500px) {
+  .logo-felippe .quem-vai-ser img:nth-of-type(1) {
+    max-width: 250px;
   }
-
-  #pull {
-    display: block;
-    height: 250px;
+  
+  .logo-felippe .quem-vai-ser img:nth-of-type(2) {
+    max-width: 125px;
   }
-
-  .form .email input[type="email"],
-  .form .email input[type="text"]
-  {
-    height: 30px;
-  }
-
-  .form .email input[type="text"] {
-    display: inline-block;
-    width: 48%;
-  }
-
-  .hours, .minutes, .seconds {
-    height: 30px;
-  }
-
-  p, span {
-    font-size: 12px;
-  }
-
-  .form .email #button {
-    padding: 10px;
-  }
-
-  .hours, .minutes, .seconds {
-    height: 30px;
-  }
-
-  .date {
-    height: 30px;
-  }
-
-  .felippe img {
+  
+  .logo-felippe .img-jornada img{
     max-width: 300px;
   }
+}
 
-  .professor .quem {
-    padding: 60px 0 0px;
+@media screen and (max-width: 400px) {
+  .logo-felippe .quem-vai-ser img:nth-of-type(1) {
+    max-width: 200px;
   }
-
-  footer {
-    top: -60px;
+  
+  .logo-felippe .quem-vai-ser img:nth-of-type(2) {
+    max-width: 100px;
+  }
+  
+  .logo-felippe .img-jornada img{
+    max-width: 300px;
   }
 }

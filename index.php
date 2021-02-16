@@ -12,9 +12,12 @@
 </head>
 <body>
   <section class="main">
-    <div class="container">
-      <div id="pull"></div>  
+    <div class="container">     
       <div class="flex">
+        <div class="logo">
+          <img src="./assets/header/masterClass.png">
+          <img src="./assets/header/jornadaEAutorealizacaoRegular.png">
+        </div>
         <div class="form">
           <h3>
             <b class="success">DESPERTE SEU PROPÓSITO</b> E TRANSFORME SUA VIDA, CARREIRA E EMPRESA 
@@ -98,12 +101,17 @@
     </div>
   </section>
   <section class="professor">
-    <div class="quem">
-      <!-- <h1>SEU MENTOR:</h1> -->
-    </div>
     <div class="felippe">
-      <h3>Quem vai ser seu mentor?</h3>
-      <img src="./assets/felippe2.png" alt="Professor">
+      <div class="logo-felippe">
+        <div class="quem-vai-ser">
+          <img src="./assets/footer/professor.png" />
+          <img src="./assets/footer/masterclassBrancoTransparente.png" />
+        </div>
+        <div class="img-jornada">
+          <img src="./assets/header/jornadaEAutorealizacaoRegular.png" />
+        </div>
+      </div>
+      <img class="mentor" src="./assets/felippe2.png" alt="Professor">
       <div class="description">
         <p><b>Treinador da Mente Humana e Arquiteto da Alma.</b> <br /> 
 Professional Coaching, Mentoring e Advice Humanizado ISOR, em Self & Life com Ativação de Competências Pessoais e Profissionais pelo Instituto HOLLOS. É palestrante, treinador, especialista com MBA em Gestão de Negócios na FGV e Arquiteto e Urbanista há mais de 10 anos.</p>
