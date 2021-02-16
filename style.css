@@ -287,6 +287,7 @@ section.main {
   max-width: 500px;
   text-align: center;
   margin: 0 auto 20px;
+  font-size: 17px;
 }
 
 .felippe .description h2 {
@@ -501,5 +502,53 @@ footer p {
 @media screen and (max-height: 800px) {
   #pull {
     height: 145px;
+  }
+
+  #pull {
+    display: block;
+    height: 250px;
+  }
+
+  .form .email input[type="email"],
+  .form .email input[type="text"]
+  {
+    height: 30px;
+  }
+
+  .form .email input[type="text"] {
+    display: inline-block;
+    width: 48%;
+  }
+
+  .hours, .minutes, .seconds {
+    height: 30px;
+  }
+
+  p, span {
+    font-size: 12px;
+  }
+
+  .form .email #button {
+    padding: 10px;
+  }
+
+  .hours, .minutes, .seconds {
+    height: 30px;
+  }
+
+  .date {
+    height: 30px;
+  }
+
+  .felippe img {
+    max-width: 300px;
+  }
+
+  .professor .quem {
+    padding: 60px 0 0px;
+  }
+
+  footer {
+    top: -60px;
   }
 }

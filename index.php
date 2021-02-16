@@ -17,7 +17,7 @@
       <div class="flex">
         <div class="form">
           <h3>
-            <span class="success">DESPERTE SEU PROPÓSITO</span> E TRANSFORME SUA VIDA, CARREIRA E EMPRESA 
+            <b class="success">DESPERTE SEU PROPÓSITO</b> E TRANSFORME SUA VIDA, CARREIRA E EMPRESA 
             PARA TER A VIDA QUE VOCÊ SEMPRE DESEJOU!</h3>
             <p>Uma jornada de aperfeiçoamento profissional paga que estará disponível 
             <b>GRATUITAMENTE</b> ao vivo e online na internet nos dias:</p>
