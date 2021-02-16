@@ -87,12 +87,12 @@
         <div class="aula-item">
           <img src="./assets/aula03.jpeg" alt="Aula 03">          
           <h2>A TRANSFORMAÇÃO</h2>
-          <p>Você vai desenvolver as habilidades que são realmente importantes e aprender como ter mais energia na vida e entusiasmo profissional fazendo com que pessoas queiram te contratar, indicar e pagar cada vez mais.</p>          
+          <p>Você vai desenvolver as habilidades que são realmente importantes e aprender como ter mais energia na vida e entusiasmo profissional, fazendo com que pessoas queiram te contratar, indicar e pagar cada vez mais!</p>          
         </div>
         <div class="aula-item">
           <img src="./assets/aula04.jpeg" alt="Aula 04">
           <h2>INTELIGÊNICA E PRÓPOSITO</h2>
-          <p>A aula mais importante onde você descobrirá o que de fato é essencial sobre esse conhecimento e terá uma explicação completa da mundança que o mundo está passando e qual a melhor direção para você.</p>
+          <p>A aula mais importante, onde você descobrirá o que de fato é essencial sobre esse conhecimento e vai ter uma explicação completa da mundança que o mundo está passando e qual a melhor direção para você.</p>
         </div>
       </div>
     </div>
