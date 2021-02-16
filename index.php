@@ -56,6 +56,18 @@
     </div>
   </section>
   <section class="aulas">
+    <header>
+      <h1>MASTER CLASS JORNADA DO PROPÓSITO E AUTORREALIZAÇÃO</h1>
+      <p>Para quem busca ter mais liberdade fazendo o que você faz alinhado com o que você é!</p>
+      <p>Se você quer ter uma Vida com mais Sentido e um Trabalho com mais Significado</p>
+      <p>essa Jornada foi feita especialmente para você!</p>
+      <br />
+      <p><i>Aguardo você para iniciarmos a melhor viagem da sua vida!</i></p>
+      <br />
+      <p><b>Felippe Cinelli</b></p>
+      <br />
+      
+    </header>
     <div class="container">
       <div class="aula">
         <div class="aula-item">
@@ -93,7 +105,6 @@
       <!-- <h1>SEU MENTOR:</h1> -->
     </div>
     <div class="felippe">
-      <h3>Quem será seu mentor?</h3>
       <img src="./assets/felippe2.png" alt="Professor">
       <div class="description">
         <p>Treinador da Mente Humana e Arquiteto da Alma.

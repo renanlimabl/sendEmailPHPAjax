@@ -189,7 +189,32 @@ section.main {
 
 
 .aulas {
-  margin: 80px 0;
+  margin-bottom: 60px;
+}
+
+
+.aulas header {
+  width: 100%;
+  padding: 20px 0;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+.aulas header h1 {
+  font-size: 40px;
+  color: #ffeed4;
+  margin-bottom: 40px;
+  text-shadow: 2px 0 0 #e7a036, -2px 0 0 #e7a036, 0 2px 0 #e7a036, 0 -2px 0 #e7a036, 1px 1px #e7a036, -1px -1px 0 #e7a036, 1px -1px 0 #e7a036, -1px 1px 0 #fff;
+}
+
+.aulas header p {
+  color: #fff;
+  font-size: 22px;
 }
 
 .aulas .aula {
@@ -312,9 +337,6 @@ footer p {
   color: #fff;
 }
 
-.felippe > h3 {
-  display: none;
-}
 
 @media screen and (max-width: 768px) {
   .container {
@@ -353,16 +375,7 @@ footer p {
     height: auto;
     top: 0;
   }
-
-  .felippe > h3 {
-    display: block;
-    font-size: 24px;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  
+    
   .felippe .description p {
     max-width: 300px;
   }
@@ -446,6 +459,21 @@ footer p {
 
   .date {
     height: 30px;
+  }
+
+  .aulas header {
+    text-align: center;
+  }
+
+  .aulas header h1 {
+    font-size: 16px;
+  }
+  .aulas header {
+    padding: 20px;
+  }
+
+  .aulas header p {
+    font-size: 14px;
   }
 }
 
