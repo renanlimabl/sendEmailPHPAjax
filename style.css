@@ -5,6 +5,12 @@
   outline: none;
   font-family: 'Roboto', 'Arial', sans-serif;
 }
+/* 
+@font-face {
+  font-family: 'Moontime';
+  src: url('./assets/fonts/MoonTime-Regular.ttf'),
+        url('./assets/fonts/MoonTime-Regular.otf')
+} */
 
 html, body {
   height: 100%;
@@ -337,6 +343,9 @@ footer p {
   color: #fff;
 }
 
+.felippe > h3 {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
   .container {
@@ -375,14 +384,23 @@ footer p {
     height: auto;
     top: 0;
   }
-    
+
   .felippe .description p {
     max-width: 300px;
   }
+
+  /* .felippe > h3 {
+    display: block;
+    font-family: 'Moontime';
+    font-size: 40px;
+    color: rgb(0, 127, 150);
+    text-shadow: 2px 0 0 rgb(161, 241, 255), -2px 0 0 rgb(161, 241, 255), 0 2px 0 rgb(161, 241, 255), 0 -2px 0 rgb(161, 241, 255), 1px 1px rgb(161, 241, 255), -1px -1px 0 rgb(161, 241, 255), 1px -1px 0 rgb(161, 241, 255), -1px 1px 0 #fff;
+  } */
   
   .professor {
-    background-position: left;
+    background-image: url('./assets/background-footer.jpeg');
   }
+
   .professor .quem {
     padding: 40px 0 30px;
   }

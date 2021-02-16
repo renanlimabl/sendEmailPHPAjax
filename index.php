@@ -73,29 +73,26 @@
         <div class="aula-item">
           <img src="./assets/aula01.jpeg" alt="Aula 01">
           <h2>A GRANDE LIBERDADE</h2>
-          <p>Você descobrirá  porque VOCÊ esta parado tanto tempo no mesmo lugar! Será que você esta vivendo realmente o que você quer ou esta vivendo o que planejaram para você? 
-            O que falta para você ter a vida que sempre desejou?!</p>
+          <p>Você descobrirá porque esta parado tanto tempo no mesmo lugar! Será que você esta vivendo realmente o que você quer ou esta vivendo o que planejaram para você? 
+            O que falta para ter a vida que sempre desejou?!</p>
         </div>
         <div class="aula-item">
           <img src="./assets/aula02.jpeg" alt="Aula 02">
           <h2>AUTORREALIZAÇÃO</h2>
-          <p>Você descobrirá  porque VOCÊ  não sai do lugar. O que você está fazendo de errado e deixando outras pessoas fazerem com você que está te impedindo de crescer na carreira, 
+          <p>Descubra como você pode acelerar sua jornada e o que está fazendo de errado, permitindo com que outras pessoas façam por você. O que está te impedindo de evoluir, 
             ganhar mais dinheiro e ter uma vida melhor?</p>
         </div>
       </div>
       <div class="aula">
         <div class="aula-item">
           <img src="./assets/aula03.jpeg" alt="Aula 03">          
-          <h2>INTELIGÊNICA E PRÓPOSITO</h2>
-          <p>A aula mais importante que irá te mostrar a única mudança que você precisa fazer no seu posicionamento e na sua apresentação para ter muitas pessoas querendo te contratar, 
-            te indicando e te pagando cada vez mais.</p>          
+          <h2>A TRANSFORMAÇÃO</h2>
+          <p>Você vai desenvolver as habilidades que são realmente importantes e aprender como ter mais energia na vida e entusiasmo profissional fazendo com que pessoas queiram te contratar, indicar e pagar cada vez mais.</p>          
         </div>
         <div class="aula-item">
           <img src="./assets/aula04.jpeg" alt="Aula 04">
-          <h2>A GRANDE DESCOBERTA</h2>
-          <p>Você descobrirá de onde vem esse conhecimento, qual é o embasamento científico 
-            e terá acesso a explicação 
-            completa de como o formato do corpo revela que tipo de mente uma pessoa tem.</p>
+          <h2>INTELIGÊNICA E PRÓPOSITO</h2>
+          <p>A aula mais importante onde você descobrirá o que de fato é essencial sobre esse conhecimento e terá uma explicação completa da mundança que o mundo está passando e qual a melhor direção para você.</p>
         </div>
       </div>
     </div>
@@ -105,6 +102,7 @@
       <!-- <h1>SEU MENTOR:</h1> -->
     </div>
     <div class="felippe">
+      <h3>Quem vai ser seu mentor?</h3>
       <img src="./assets/felippe2.png" alt="Professor">
       <div class="description">
         <p>Treinador da Mente Humana e Arquiteto da Alma.
