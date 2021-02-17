@@ -125,6 +125,13 @@ section.main {
   margin-top: 10px;
 }
 
+
+.form span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+
 .form .email h4 {
   text-align: center;  
   font-size: 20px;
@@ -182,6 +189,36 @@ section.main {
 }
 
 .form .email #button:hover {
+  background-image: linear-gradient(#3cb414,#36812d);
+  border: 1px solid #26831c;
+}
+
+.form .email #button.remove {
+  display: none;
+}
+
+.form .email #whatsapp {
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: 50px;
+  width: 100%;  
+  background-image: linear-gradient(#64d53e,#52b346);
+  border: 1px solid #52b247;
+  color: #fff;
+  padding: 20px;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  font-size: 16px;
+}
+
+.form .email #whatsapp.apper {
+  display: flex;
+}
+
+.form .email #whatsapp:hover {
   background-image: linear-gradient(#3cb414,#36812d);
   border: 1px solid #26831c;
 }
@@ -313,6 +350,7 @@ section.main {
 .logo-felippe .quem-vai-ser img:nth-of-type(2) {
   max-width: 300px;
 }
+
 
 .logo-felippe .img-jornada img{
   max-width: 1000px;

@@ -1,6 +1,8 @@
 $(document).ready(function(){
   $("#form").on('submit', function(e){
       e.preventDefault();
+      var buttonEmail = document.querySelector("#button")
+      var buttonWhatsApp = document.querySelector("#whatsapp")
       var formData = $(this).serialize();
       $.ajax({
         type: "POST",
@@ -8,7 +10,8 @@ $(document).ready(function(){
         async: true,
         data: formData, /* informa Url */
         success: function(data) { /* sucesso */
-            alert(data)
+            buttonEmail.classList.add('remove')
+            buttonWhatsApp.classList.add('apper')
         }        
     });
 })

@@ -51,7 +51,9 @@
               <input type="text" name="nome" placeholder="Nome" required>
               <input type="text" name="telefone" placeholder="Telefone (DDD) 00000-0000" required>
               <input type="email" name="email" placeholder="E-mail" required>
-              <input id="button" type="submit" name="send" value="ENTRAR NO GRUPO VIP DO WHATSAPP!"/>
+              <span>*Para garantir sua vaga, envie seus dados e entre no grupo vip do whatsapp</span>
+              <input id="button" type="submit" name="send" value="ENVIAR DADOS"/>
+              <a id="whatsapp" href="https://chat.whatsapp.com/LRh2Mp4D2RP2jYOT0LPsUS" target="_blank">Entrar no grupo vip do WhatsApp</a>
             </form>
           </div>
         </div>        
