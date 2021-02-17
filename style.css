@@ -47,7 +47,7 @@ img {
 /* MAIN */
 
 section.main { 
-  background-image: url('./assets/backgroundmain.jpeg');
+  background-image: url('./assets/background-header.jpeg');
   background-position: center;
   background-size: 100% 100%;
   padding: 20px 0 60px;
@@ -129,6 +129,7 @@ section.main {
 .form span {
   display: block;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 
