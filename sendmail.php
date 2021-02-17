@@ -18,7 +18,7 @@ $message.='</table>';
 $message.='</body></html>';
 
 
-$to=$email;
+$to='contato.felippecinelli@gmail.com';
 $from='contato.felippecinelli@gmail.com';
 $subject='Novo e-mail!';
 $headers = "From: " . $from . "\r\n";
