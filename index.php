@@ -49,7 +49,7 @@
             </div>
             <form method="POST" action="sendmail.php" id="form">
               <input type="text" name="nome" placeholder="Nome" required>
-              <input type="text" name="telefone" placeholder="Telefone" required>
+              <input type="text" name="telefone" placeholder="Telefone (DDD) 00000-0000" required>
               <input type="email" name="email" placeholder="E-mail" required>
               <input id="button" type="submit" name="send" value="ENTRAR NO GRUPO VIP DO WHATSAPP!"/>
             </form>

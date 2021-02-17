@@ -19,7 +19,7 @@ $message.='</body></html>';
 
 
 $to=$email;
-$from='renanlimabl@gmail.com';
+$from='contato.felippecinelli@gmail.com';
 $subject='Novo e-mail!';
 $headers = "From: " . $from . "\r\n";
 $headers .= "Reply-To: ". strip_tags($from) . "\r\n";

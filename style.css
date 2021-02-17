@@ -377,9 +377,6 @@ footer p {
     margin: 15px auto 0;
   }
 
-  
-  
-
   .felippe .description p {
     max-width: 300px;
   }
@@ -446,11 +443,6 @@ footer p {
   .form .email input[type="text"]
   {
     height: 30px;
-  }
-
-  .form .email input[type="text"] {
-    display: inline-block;
-    width: 48%;
   }
 
   .form .email #button {
