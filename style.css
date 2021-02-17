@@ -179,8 +179,8 @@ section.main {
   display: block;
   border-radius: 50px;
   width: 100%;  
-  background-image: linear-gradient(#64d53e,#52b346);
-  border: 1px solid #52b247;
+  background-image: linear-gradient(rgb(0, 0, 0),#525751);
+  border: 1px solid #293028;
   color: #fff;
   padding: 20px;
   font-weight: bold;
@@ -189,8 +189,8 @@ section.main {
 }
 
 .form .email #button:hover {
-  background-image: linear-gradient(#3cb414,#36812d);
-  border: 1px solid #26831c;
+  background-image: linear-gradient(rgb(0, 0, 0),#354232);
+  border: 1px solid #535c52;
 }
 
 .form .email #button.remove {
