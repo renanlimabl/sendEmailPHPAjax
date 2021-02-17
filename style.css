@@ -49,7 +49,7 @@ img {
 section.main { 
   background-image: url('./assets/background-header.jpeg');
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding: 20px 0 60px;
 }
 
@@ -69,25 +69,26 @@ section.main {
 }
 
 .form h3 {
-  font-size: 21px;
+  font-size: 19px;
   margin-bottom: 1rem;
   line-height: 1.2;
   color: #fff;
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Bungee', cursive;
+  font-family: 'Oswald', sans-serif;
 }
 
 .form h3 .success {
   color: #94f443;
-  font-family: 'Bungee', cursive;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
 }
 
 .form > p, .form > p > b {
   color: #fff;
   text-align: center;
   margin-bottom: 5px;
-  font-family: 'Bungee', cursive;
+  font-family: 'Oswald', sans-serif;
 }
 
 .form .date {
@@ -106,13 +107,13 @@ section.main {
   font-size: 17px;
   padding: 2px 10px;
   border-radius: 10px;
-  font-family: 'Bungee', cursive;
+  font-family: 'Oswald', sans-serif;
 }
 
 .form .date span {
   font-size: 20px;
   color: #fff;
-  font-family: 'Bungee', cursive;
+  font-family: 'Oswald', sans-serif;
 }
 
 .form .email {
@@ -126,7 +127,7 @@ section.main {
 }
 
 
-.form span {
+.form form span {
   display: block;
   margin-bottom: 20px;
   text-align: center;
@@ -244,9 +245,9 @@ section.main {
 
 .aulas header h1 {
   font-size: 40px;
-  color: #ffeed4;
+  font-style: italic;
+  color: #ffeb99;
   margin-bottom: 40px;
-  text-shadow: 2px 0 0 #e7a036, -2px 0 0 #e7a036, 0 2px 0 #e7a036, 0 -2px 0 #e7a036, 1px 1px #e7a036, -1px -1px 0 #e7a036, 1px -1px 0 #e7a036, -1px 1px 0 #fff;
 }
 
 .aulas header p {
@@ -320,7 +321,8 @@ section.main {
 .felippe .description h2 {
   color: #64d53e;
   padding: 5px 0;
-  font-family: 'Bungee', cursive;
+  font-size: 26px;
+  font-family: 'Oswald', cursive;
 }
 
 .felippe .description h3 {
@@ -342,6 +344,8 @@ section.main {
 
 .logo-felippe .quem-vai-ser {
   display: flex;
+  position: relative;
+  top: 20px;
 }
 
 .logo-felippe .quem-vai-ser img:nth-of-type(1) {
@@ -509,6 +513,11 @@ footer p {
 }
 
 @media screen and (max-width: 500px) {
+  .logo {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
   .logo-felippe .quem-vai-ser img:nth-of-type(1) {
     max-width: 250px;
   }

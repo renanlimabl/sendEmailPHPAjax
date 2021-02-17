@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
   <section class="main">
@@ -96,7 +97,7 @@
         </div>
         <div class="aula-item">
           <img src="./assets/aula04.jpeg" alt="Aula 04">
-          <h2>INTELIGÊNICA E PRÓPOSITO</h2>
+          <h2>INTELIGÊNCIA E PROPÓSITO</h2>
           <p>A aula mais importante, onde você descobrirá o que de fato é essencial sobre esse conhecimento e vai ter uma explicação completa da mundança que o mundo está passando e qual a melhor direção para você.</p>
         </div>
       </div>
