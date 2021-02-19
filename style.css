@@ -50,7 +50,7 @@ section.main {
   background-image: url('./assets/background-header.jpeg');
   background-position: center;
   background-size: cover;
-  padding: 20px 0 60px;
+  padding: 20px 0 100px;
 }
 
 .main .logo img:nth-of-type(1) {
@@ -80,7 +80,6 @@ section.main {
 
 .form h3 .success {
   color: #94f443;
-  font-size: 20px;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -345,7 +344,7 @@ section.main {
 .logo-felippe .quem-vai-ser {
   display: flex;
   position: relative;
-  top: 20px;
+  top: 10px;
 }
 
 .logo-felippe .quem-vai-ser img:nth-of-type(1) {

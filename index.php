@@ -12,6 +12,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2764175777167797');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2764175777167797&ev=PageView&noscript=1"
+/></noscript>
 </head>
 <body>
   <section class="main">
@@ -25,8 +40,8 @@
           <h3>
             <b class="success">DESPERTE SEU PROPÓSITO</b> E TRANSFORME SUA VIDA, CARREIRA E EMPRESA 
             PARA TER A VIDA QUE VOCÊ SEMPRE DESEJOU!</h3>
-            <p>Uma jornada de aperfeiçoamento profissional paga que estará disponível 
-            <b>GRATUITAMENTE</b> ao vivo e online na internet nos dias:</p>
+            <p>Uma jornada de aperfeiçoamento profissional paga que estárá disponível 
+            <b>GRATUITAMENTE</b> ao vivo e online nos dias:</p>
           <div class="date">
             <img src="./assets/calendario.png" alt="calendario">
             <div>
@@ -81,7 +96,7 @@
         <div class="aula-item">
           <img src="./assets/aula01.jpeg" alt="Aula 01">
           <h2>A GRANDE LIBERDADE</h2>
-          <p>Você descobrirá porque esta parado tanto tempo no mesmo lugar! Será que você esta vivendo realmente o que você quer ou esta vivendo o que planejaram para você? 
+          <p>Você descobrirá porque está parado tanto tempo no mesmo lugar! Será que você está vivendo realmente o que você quer ou está vivendo o que planejaram para você? 
             O que falta para ter a vida que sempre desejou?!</p>
         </div>
         <div class="aula-item">
@@ -100,7 +115,7 @@
         <div class="aula-item">
           <img src="./assets/aula04.jpeg" alt="Aula 04">
           <h2>INTELIGÊNCIA E PROPÓSITO</h2>
-          <p>A aula mais importante, onde você descobrirá o que de fato é essencial sobre esse conhecimento e vai ter uma explicação completa da mundança que o mundo está passando e qual a melhor direção para você.</p>
+          <p>A aula mais importante, onde descobrirá, o que de fato é essencial sobre este conhecimento. Você vai ter uma explicação completa da mudança que o mundo está passando e qual a melhor direção para você seguir!</p>
         </div>
       </div>
     </div>
