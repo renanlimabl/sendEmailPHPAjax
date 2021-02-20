@@ -5,17 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Master Class Jornada do Propósito e Autorrealização</title>
-  <meta name="description" content="Arte de Acreditar | Master Class Jornada do Propósito e Autorrealização" />
-  <meta property="og:title" content="Arte de Acreditar" />
+  <meta name="description" content="Master Class | Master Class Jornada do Propósito e Autorrealização" />
+  <meta property="og:title" content="Master Class" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="Arte de Acreditar | Treinamento Desperte Seu Propósito"/> 
+  <meta property="og:description" content="Master Class | Treinamento Desperte Seu Propósito"/> 
   <meta property="og:image" content="https://i.ibb.co/MPHFL9k/face.png"/>
   <meta property="og:url" content="https://felippecinelli.com.br" />
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="https://felippecinelli.com.br">
-  <meta name="twitter:title" content="Arte de Acreditar | Treinamento Desperte Seu Propósito">
-  <meta name="twitter:description" content="Arte de Acreditar | Treinamento Desperte Seu Propósito">
+  <meta name="twitter:title" content="Master Class | Treinamento Desperte Seu Propósito">
+  <meta name="twitter:description" content="Master Class | Treinamento Desperte Seu Propósito">
   <meta name="twitter:image" content="https://i.ibb.co/MPHFL9k/face.png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
