@@ -44,17 +44,17 @@ fbq('track', 'PageView');
 
   gtag('config', 'G-L6RM2L8T7L');
 </script>
-<noscript><img height="1" width="1" style="display:none"
+<noscript><img alt="Jornada Master Class" height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=2764175777167797&ev=PageView&noscript=1"
-/></noscript>
+alt="noscript"/></noscript>
 </head>
 <body>
   <section class="main">
     <div class="container">     
       <div class="flex">
         <div class="logo">
-          <img src="./assets/header/masterClass.png">
-          <img src="./assets/header/jornadaEAutorealizacaoRegular.png">
+          <img alt="Jornada Master Class" src="./assets/header/masterClass.png">
+          <img alt="Jornada Master Class" src="./assets/header/jornadaEAutorealizacaoRegular.png">
         </div>
         <div class="form">
           <h3>
@@ -63,7 +63,7 @@ src="https://www.facebook.com/tr?id=2764175777167797&ev=PageView&noscript=1"
             <p>Uma jornada de aperfeiçoamento profissional paga que estárá disponível 
             <b>GRATUITAMENTE</b> ao vivo e online nos dias:</p>
           <div class="date">
-            <img src="./assets/calendario.png" alt="calendario">
+            <img alt="Jornada Master Class" src="./assets/calendario.png" alt="calendario">
             <div>
               <p>2, 3, 4 e 5 de Março às 20h</p>
               <span>AO VIVO e SEM REPLAY</span>
@@ -114,13 +114,13 @@ src="https://www.facebook.com/tr?id=2764175777167797&ev=PageView&noscript=1"
     <div class="container">
       <div class="aula">
         <div class="aula-item">
-          <img src="./assets/aula01.jpeg" alt="Aula 01">
+          <img alt="Jornada Master Class" src="./assets/aula01.jpeg" alt="Aula 01">
           <h2>A GRANDE LIBERDADE</h2>
           <p>Você descobrirá porque está parado tanto tempo no mesmo lugar! Será que você está vivendo realmente o que você quer ou está vivendo o que planejaram para você? 
             O que falta para ter a vida que sempre desejou?!</p>
         </div>
         <div class="aula-item">
-          <img src="./assets/aula02.jpeg" alt="Aula 02">
+          <img alt="Jornada Master Class" src="./assets/aula02.jpeg" alt="Aula 02">
           <h2>AUTORREALIZAÇÃO</h2>
           <p>Descubra como você pode acelerar sua jornada e o que está fazendo de errado, permitindo com que outras pessoas façam por você. O que está te impedindo de evoluir, 
             ganhar mais dinheiro e ter uma vida melhor?</p>
@@ -128,12 +128,12 @@ src="https://www.facebook.com/tr?id=2764175777167797&ev=PageView&noscript=1"
       </div>
       <div class="aula">
         <div class="aula-item">
-          <img src="./assets/aula03.jpeg" alt="Aula 03">          
+          <img alt="Jornada Master Class" src="./assets/aula03.jpeg" alt="Aula 03">          
           <h2>A TRANSFORMAÇÃO</h2>
           <p>Você vai desenvolver as habilidades que são realmente importantes e aprender como ter mais energia na vida e entusiasmo profissional, fazendo com que pessoas queiram te contratar, indicar e pagar cada vez mais!</p>          
         </div>
         <div class="aula-item">
-          <img src="./assets/aula04.jpeg" alt="Aula 04">
+          <img alt="Jornada Master Class" src="./assets/aula04.jpeg" alt="Aula 04">
           <h2>INTELIGÊNCIA E PROPÓSITO</h2>
           <p>A aula mais importante, onde descobrirá, o que de fato é essencial sobre este conhecimento. Você vai ter uma explicação completa da mudança que o mundo está passando e qual a melhor direção para você seguir!</p>
         </div>
@@ -144,14 +144,14 @@ src="https://www.facebook.com/tr?id=2764175777167797&ev=PageView&noscript=1"
     <div class="felippe">
       <div class="logo-felippe">
         <div class="quem-vai-ser">
-          <img src="./assets/footer/professor.png" />
-          <img src="./assets/footer/masterclassBrancoTransparente.png" />
+          <img alt="Jornada Master Class" src="./assets/footer/professor.png" />
+          <img alt="Jornada Master Class" src="./assets/footer/masterclassBrancoTransparente.png" />
         </div>
         <div class="img-jornada">
-          <img src="./assets/header/jornadaEAutorealizacaoRegular.png" />
+          <img alt="Jornada Master Class" src="./assets/header/jornadaEAutorealizacaoRegular.png" />
         </div>
       </div>
-      <img class="mentor" src="./assets/felippe2.png" alt="Professor">
+      <img alt="Jornada Master Class" class="mentor" src="./assets/felippe2.png" alt="Professor">
       <div class="description">
         <p><b>Treinador da Mente Humana e Arquiteto da Alma.</b> <br /> 
 Professional Coaching, Mentoring e Advice Humanizado ISOR, em Self & Life com Ativação de Competências Pessoais e Profissionais pelo Instituto HOLLOS. É palestrante, treinador, especialista com MBA em Gestão de Negócios na FGV e Arquiteto e Urbanista há mais de 10 anos.</p>
@@ -161,7 +161,7 @@ Professional Coaching, Mentoring e Advice Humanizado ISOR, em Self & Life com At
     </div>
   </section>
   <footer>
-    <img src="./assets/logo.png" alt="Logo">
+    <img alt="Jornada Master Class" src="./assets/logo.png" alt="Logo">
     <p>© Arte de Acreditar - 2021 <br /> Todos os direitos reservados</p>
   </footer>
 
