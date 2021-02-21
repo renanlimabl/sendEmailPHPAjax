@@ -70,7 +70,7 @@ alt="noscript"/></noscript>
             </div>
           </div>
           <div class="email">
-            <h4>Deixe o seu contato abaixo para receber GRATUITAMENTE o link das 4 AULAS AO VIVO e o material da MASTER CLASS no WhatsApp.</h4>
+            <h4>Entre no grupo VIP da Master Class no WhatsApp para receber GRATUITAMENTE o link das 4 AULAS AO VIVO.</h4>
             <div class="regressive">
               <div class="hours">
                 <p>00</p>
@@ -85,13 +85,9 @@ alt="noscript"/></noscript>
                 <span>segundos</span>
               </div>
             </div>
-            <form method="POST" action="sendmail.php" id="form">
-              <input id="nome" type="text" name="nome" placeholder="Nome" required>
-              <input id="telefone" type="text" name="telefone" placeholder="Telefone (DDD) 00000-0000" required>
-              <input id="email" type="email" name="email" placeholder="E-mail" required>
-              <span id="warning">* Para garantir sua vaga, envie seus dados <br /> e entre no grupo vip do whatsapp</span>
-              <input id="button" type="submit" name="send" value="ENVIAR DADOS"/>
-              <a id="whatsapp" href="https://chat.whatsapp.com/LRh2Mp4D2RP2jYOT0LPsUS" target="_blank">Entrar no grupo vip do WhatsApp</a>
+            <form method="POST" id="form">
+              <span id="warning">*Para ter acesso a Master Class participe do grupo Vip do WhatsApp</span>              
+              <a id="whatsapp" href="https://chat.whatsapp.com/LRh2Mp4D2RP2jYOT0LPsUS" target="_blank">Entrar no grupo vip <br /> do WhatsApp</a>
             </form>
           </div>
         </div>        
